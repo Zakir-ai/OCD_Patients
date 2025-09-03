@@ -63,7 +63,7 @@ D:\ocd_patients_web
 
 ### 6. Initialize Git & Push to GitHub
 - `git init`  
-- `git remote add origin https://github.com/afridmd12/ocd_patients_web.git`  
+- `git remote add origin https://github.com/Zakir-ai/OCD_Patients.git`  
 - `git add .`  
 - `git commit -m "Initial commit"`  
 - `git push -u origin main`
@@ -89,7 +89,7 @@ D:\ocd_patients_web
 
 ## 💻 Run Locally
 1. Clone repo:  
-   `git clone https://github.com/afridmd12/ocd_patients_web.git`
+   `git clone https://github.com/Zakir-ai/OCD_Patients.git`
 2. Navigate:  
    `cd ocd_patients_web`
 3. Create virtual environment & activate  
@@ -109,5 +109,5 @@ D:\ocd_patients_web
 ---
 
 ## 📝 Author
-👤 Mohammed Afrid  
-📌 GitHub: [afridmd12](https://github.com/afridmd12/ocd_patients_web.git)  
+👤 Shaik Zakir Ahamamad
+📌 GitHub: [Zakir-ai](https://github.com/Zakir-ai/OCD_Patients)  
