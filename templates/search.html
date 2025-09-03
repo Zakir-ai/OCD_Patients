@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Search - OCD Dashboard{% endblock %}
+{% block content %}
+<div class="container">
+  <h2 class="text-center text-warning mb-4">🔍 Search Patient Records</h2>
+  <form action="/search" method="POST" class="card p-4 shadow-lg">
+    <div class="row mb-3">
+      <div class="col-md-4">
+        <label class="form-label">Patient ID</label>
+        <input type="text" name="patient_id" class="form-control" placeholder="Enter Patient ID">
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Age</label>
+        <input type="number" name="age" class="form-control" placeholder="Enter Age">
+      </div>
+      <div class="col-md-4">
+        <label class="form-label">Gender</label>
+        <select name="gender" class="form-select">
+          <option value="">-- Select Gender --</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+    </div>
+    <div class="d-flex justify-content-between">
+      <button type="submit" class="btn btn-warning btn-custom w-50 me-2">Search</button>
+      <button type="reset" class="btn btn-outline-light btn-custom w-50">Clear All</button>
+    </div>
+  </form>
+</div>
+{% endblock %}
