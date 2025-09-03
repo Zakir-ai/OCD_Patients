@@ -104,7 +104,7 @@ D:\ocd_patients_web
 
 ## 🌐 Deployment
 - Hosted on **Render**  
-- Live URL: [https://ocd-patients-web.onrender.com](https://ocd-patients-web.onrender.com)
+- Live URL: [https://ocd-patients-1.onrender.com](https://ocd-patients-1.onrender.com)
 
 ---
 
